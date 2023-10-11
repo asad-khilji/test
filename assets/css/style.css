@@ -1,0 +1,283 @@
+/* Desktop View */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* apply styles to the header section */
+header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+.search {
+  float: right;
+}
+
+#results .name {
+  width: 100%;
+  padding: 10px 0;
+  text-align: left;
+  background-color: white;
+  list-style-type: none;
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h1 {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* apply styles to the nav section */
+nav {
+  background-color: red;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gray;}
+
+/* apply styles to the search bar */
+.search {
+  float: right;
+}
+
+#results .name {
+  width: 100%;
+  padding: 10px 0;
+  text-align: left;
+  background-color: white;
+  list-style-type: none;
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search input {
+  width: 700px;
+  height: 35px;
+  padding: 10px;
+}
+
+.pages{ 
+  display: none;     
+ } 
+
+ #list{ 
+  margin-left: 90px;
+  background-color: white;
+ } 
+
+.btn {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+/* apply styles to the hero section */
+.hero img{
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/* apply styles to the main body section */
+main {
+  background-color: white;
+  max-width: 1250px;
+  margin: auto;
+  min-height: 550px;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+.col-2 img {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.col-2 h2, ul {
+  text-align: left;
+}
+
+.col-2 ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.col-2 {
+  text-align: left;
+}
+
+.qty {
+  width: 50px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.addtocart {
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: red;
+  border: none;
+  margin-left: 20px;
+}
+
+.col-3 {
+  flex-basis: 33.3%;
+  text-align: center;
+  padding: 20px;
+}
+
+.col-3 img {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/* apply styles to the footer section */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 25px;
+}
+
+footer h3, p {
+  text-align: left;
+  margin-left: 100px;
+}
+
+footer p {
+  line-height: 2;
+}
+
+footer p:hover {
+  color: red;
+}
+
+/* Tablet View */
+@media screen and (max-width: 768px) {
+/* apply styles to the header section */
+
+/* apply styles to the nav section */
+nav {
+  display: none;
+}
+
+/* apply styles to the search bar */
+.search input {
+  width: 200px;
+}
+
+/* apply styles to the main body section */
+.col-2 {
+  flex-basis: 50%;
+}
+
+.col-3 {
+  flex-basis: 50%;
+}
+
+/* apply styles to the footer section */
+
+  }
+
+/* Mobile View */
+@media screen and (max-width: 500px) {
+/* apply styles to the header section */
+
+/* apply styles to the nav section */
+
+/* apply styles to the search bar */
+
+/* apply styles to the main body section */
+.col-2 {
+  flex-basis: 100%;
+}
+
+.col-3 {
+  flex-basis: 100%;
+}
+
+/* apply styles to the footer section */
+
+}
